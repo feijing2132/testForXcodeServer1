@@ -390,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testForXcodeServer/testForXcodeServer-Prefix.pch";
 				INFOPLIST_FILE = "testForXcodeServer/testForXcodeServer-Info.plist";
@@ -404,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testForXcodeServer/testForXcodeServer-Prefix.pch";
 				INFOPLIST_FILE = "testForXcodeServer/testForXcodeServer-Info.plist";
@@ -472,6 +474,7 @@
 				61F376841981F2E2009406C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61F376851981F2E2009406C7 /* Build configuration list for PBXNativeTarget "testForXcodeServerTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +483,7 @@
 				61F376871981F2E2009406C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

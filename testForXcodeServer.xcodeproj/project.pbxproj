@@ -165,6 +165,7 @@
 				61F376491981F2E2009406C7 /* Sources */,
 				61F3764A1981F2E2009406C7 /* Frameworks */,
 				61F3764B1981F2E2009406C7 /* Resources */,
+				61423B531988C1C400FC2753 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -247,6 +248,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61423B531988C1C400FC2753 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pwd > ~/pwd.txt";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61F376491981F2E2009406C7 /* Sources */ = {
